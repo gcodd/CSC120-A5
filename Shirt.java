@@ -1,21 +1,20 @@
-/*
- * Shirt class (template)
- * Assignment 5: Bringing it All Together
- * @author R. Jordan Crouser + CSC120 (Fall '22))
- * @version 13 October 2022
+/**
+ * Shirt class allows objects to be created representing shirts
+ * depicted in ASCII art.
+ * @author Grace Codd
  */
 public class Shirt {
 
-    /*
-     * TODO: Modify this method to print ASCII Art Shirt
+    /**
+     * Prints ASCII art depicting a button-up shirt to the console.
      */
     public void display() {
-        System.out.println("Shirt?);
-    }
-
-    /* main method (for testing) */
-    public static void main(String[] args) {
-        Shirt myShirt = new Shirt();
-        myShirt.display();
+        /*Shirt design from https://www.asciiart.eu/clothing-and-accessories/shirts*/
+        System.out.println("           ___ ___"); 
+        System.out.println("        /|  |/|\\|  |\\ ");
+        System.out.println("       /_|  ´ |.`  |_\\");
+        System.out.println("         |    |.   | ");
+        System.out.println("         |    |.   | ");
+        System.out.println("         |____|.___|");
     }
 }

@@ -1,21 +1,22 @@
-/*
- * Pants class (template)
- * Assignment 5: Bringing it All Together
- * @author R. Jordan Crouser + CSC120 (Fall '22))
- * @version 13 October 2022
+/**
+ * Pants class allows objects to be created representing pants
+ * depicted in ASCII art.
+ * @author Grace Codd
  */
 public class Pants {
 
-    /*
-     * TODO: Modify this method to print ASCII Art Pants
+    /*No class constructor defined, default constructor will be called*/
+
+    /**
+     * Prints ASCII art representing a skirt
      */
     public void display() {
-        System.out.println("Pants?);
-    }
-
-    /* main method (for testing) */
-    public static void main(String[] args) {
-        Pants myPants = new Pants();
-        myPants.display();
+        /*Skirt design from https://www.asciiart.eu/clothing-and-accessories/skirts*/
+        System.out.println("           ==+====");
+        System.out.println("          /  |.   \\  ");
+        System.out.println("         |   |.    |");
+        System.out.println("         |   |.    |");
+        System.out.println("         |   |.    |");
+        System.out.println("         |__/_\\____|");
     }
 }
