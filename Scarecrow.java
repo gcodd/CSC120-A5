@@ -65,19 +65,20 @@ class Scarecrow {
      * @param args The command line arguments
      */
     public static void main(String[] args) {
-
-        /*Declare local String variable 'message' and initialize with a message.
-         * This will be the first message that is displayed in the banner.
-         */
-        String message = "HAPPY SPOOKY SEASON!";
+        
+        /*Declare local String variable 'message' */
+        String message;
 
         /*If statement checks for command line arguments.
          * If there are command line arguments, the String will be 
          * stored in the message variable.
+         * If the command line arguments are empty, a default message will display.
          */
         if (args.length > 0) {
             message = args[0];
         }
+        else
+            message = "HAPPY SPOOKY SEASON";
 
         /*Instatiate object of Scarecrow class, passing instances of 
          * aggregated classes and a copy of local variable message into constructor.
